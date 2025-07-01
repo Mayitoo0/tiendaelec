@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main {
+    display: flex;
+    height: 100vh;
+    padding: 2%;
+    gap: 2%;
+  }
+  .left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    
+  }
+  .cube {
+    flex: 1;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    
+  }
+  .earphone {
+    background-color: black;
+  }
+  .watch {
+    background-color: gold;
+  }
+  .ps-cube {
+    flex: 1;
+    background: linear-gradient(to right, red, #ff6a6a);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    height: 500px;
+  }
+  .cube img {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    height: 70%;
+    width: 80%;
+  }
+  .ps-cube img {
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    height: 70%;
+    width: 50%;
+  }
+  .buy-btn {
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+
+  h3{
+    font-size: 20px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    font-size: 70px;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    
+
+}
